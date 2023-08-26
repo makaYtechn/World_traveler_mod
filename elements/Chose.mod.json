@@ -1,0 +1,76 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Человек",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Человек",
+          "x": 147,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Выбрать!",
+          "onClick": {
+            "name": "Daskovanie"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Выбрать!",
+          "x": 133,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Мироходец",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Мироходец",
+          "x": 232,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Выбрать!",
+          "onClick": {
+            "name": "Worldtravaler"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Выбрать!",
+          "x": 222,
+          "y": 111
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

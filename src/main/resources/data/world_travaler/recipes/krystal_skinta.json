@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "world_travaler:oskolok"
+    },
+    "1": {
+      "item": "world_travaler:oskolok"
+    },
+    "2": {
+      "item": "world_travaler:oskolok"
+    },
+    "3": {
+      "item": "world_travaler:oskolok"
+    },
+    "4": {
+      "item": "world_travaler:oskolok"
+    },
+    "5": {
+      "item": "world_travaler:oskolok"
+    },
+    "6": {
+      "item": "world_travaler:oskolok"
+    },
+    "7": {
+      "item": "world_travaler:oskolok"
+    },
+    "8": {
+      "item": "world_travaler:oskolok"
+    }
+  },
+  "result": {
+    "item": "world_travaler:kristal_skinta",
+    "count": 1
+  }
+}

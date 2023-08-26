@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "world_travaler:skint"
+    },
+    "1": {
+      "item": "world_travaler:skint"
+    },
+    "2": {
+      "item": "world_travaler:skint"
+    },
+    "3": {
+      "item": "world_travaler:skint"
+    },
+    "4": {
+      "item": "world_travaler:skint"
+    },
+    "5": {
+      "item": "world_travaler:skint"
+    },
+    "6": {
+      "item": "world_travaler:skint"
+    },
+    "7": {
+      "item": "world_travaler:skint"
+    },
+    "8": {
+      "item": "world_travaler:skint"
+    }
+  },
+  "result": {
+    "item": "world_travaler:oskolok",
+    "count": 1
+  }
+}

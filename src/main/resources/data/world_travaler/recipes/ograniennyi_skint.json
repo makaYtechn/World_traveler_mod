@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "world_travaler:kristal_skinta"
+    },
+    "1": {
+      "item": "world_travaler:kristal_skinta"
+    },
+    "2": {
+      "item": "world_travaler:kristal_skinta"
+    },
+    "3": {
+      "item": "world_travaler:kristal_skinta"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "world_travaler:kristal_skinta"
+    },
+    "6": {
+      "item": "world_travaler:kristal_skinta"
+    },
+    "7": {
+      "item": "world_travaler:kristal_skinta"
+    },
+    "8": {
+      "item": "world_travaler:kristal_skinta"
+    }
+  },
+  "result": {
+    "item": "world_travaler:oghraniennyi_skint",
+    "count": 1
+  }
+}
