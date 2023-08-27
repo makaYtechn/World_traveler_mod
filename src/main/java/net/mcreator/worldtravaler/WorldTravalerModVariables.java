@@ -221,6 +221,7 @@ public class WorldTravalerModVariables {
 			nbt.putDouble("counter", instance.counter);
 			nbt.putBoolean("dask", instance.dask);
 			nbt.putBoolean("chose_opend", instance.chose_opend);
+			nbt.putDouble("LifeCounter", instance.LifeCounter);
 			return nbt;
 		}
 
@@ -230,6 +231,7 @@ public class WorldTravalerModVariables {
 			instance.counter = nbt.getDouble("counter");
 			instance.dask = nbt.getBoolean("dask");
 			instance.chose_opend = nbt.getBoolean("chose_opend");
+			instance.LifeCounter = nbt.getDouble("LifeCounter");
 		}
 	}
 
@@ -237,6 +239,7 @@ public class WorldTravalerModVariables {
 		public double counter = 60.0;
 		public boolean dask = false;
 		public boolean chose_opend = false;
+		public double LifeCounter = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -274,6 +277,7 @@ public class WorldTravalerModVariables {
 		clone.counter = original.counter;
 		clone.dask = original.dask;
 		clone.chose_opend = original.chose_opend;
+		clone.LifeCounter = original.LifeCounter;
 		if (!event.isWasDeath()) {
 		}
 	}
@@ -303,6 +307,7 @@ public class WorldTravalerModVariables {
 					variables.counter = message.data.counter;
 					variables.dask = message.data.dask;
 					variables.chose_opend = message.data.chose_opend;
+					variables.LifeCounter = message.data.LifeCounter;
 				}
 			});
 			context.setPacketHandled(true);

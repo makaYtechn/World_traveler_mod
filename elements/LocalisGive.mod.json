@@ -1,0 +1,96 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 51
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Получить семя локолиса",
+          "width": 108,
+          "height": 20,
+          "name": "Получить семя локолиса",
+          "x": 159,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounter1"
+          },
+          "name": "life_ind-1.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounter2"
+          },
+          "name": "life_ind-2.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounter3"
+          },
+          "name": "life_ind-3.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounter4"
+          },
+          "name": "life_ind-4-1.png",
+          "x": 141,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
