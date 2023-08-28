@@ -14,7 +14,17 @@ import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.worldtravaler.procedures.LifeCounter4Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient9Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient8Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient7Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient6Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient5Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient4Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient3Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient2Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient1Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient10Procedure;
+import net.mcreator.worldtravaler.procedures.LifeCounterGradient0Procedure;
 import net.mcreator.worldtravaler.procedures.LifeCounter3Procedure;
 import net.mcreator.worldtravaler.procedures.LifeCounter2Procedure;
 import net.mcreator.worldtravaler.procedures.LifeCounter1Procedure;
@@ -79,8 +89,69 @@ public class LocalisGiveGuiWindow extends ContainerScreen<LocalisGiveGui.GuiCont
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-3.png"));
 			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
 		}
-		if (LifeCounter4Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-				(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+		if (LifeCounterGradient10Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-1.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient1Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-2.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient2Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-3.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient3Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-4.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient4Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-5.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient5Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-6.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient6Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-7.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient7Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-8.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient8Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-9.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient9Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-10.png"));
+			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
+		}
+		if (LifeCounterGradient0Procedure
+				.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("world_travaler:textures/screens/life_ind-4-1.png"));
 			this.blit(ms, this.guiLeft + 15, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
 		}

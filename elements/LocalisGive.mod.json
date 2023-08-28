@@ -77,7 +77,137 @@
           "image": "life_ind-4-1.png",
           "use1Xscale": false,
           "displayCondition": {
-            "name": "LifeCounter4"
+            "name": "LifeCounterGradient10"
+          },
+          "name": "life_ind-4-1.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient1"
+          },
+          "name": "life_ind-4-2.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient2"
+          },
+          "name": "life_ind-4-3.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient3"
+          },
+          "name": "life_ind-4-4.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient4"
+          },
+          "name": "life_ind-4-5.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient5"
+          },
+          "name": "life_ind-4-6.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient6"
+          },
+          "name": "life_ind-4-7.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient7"
+          },
+          "name": "life_ind-4-8.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient8"
+          },
+          "name": "life_ind-4-9.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient9"
+          },
+          "name": "life_ind-4-10.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "life_ind-4-1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LifeCounterGradient0"
           },
           "name": "life_ind-4-1.png",
           "x": 141,

@@ -17,7 +17,7 @@ public class LifeCounter4Procedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((entity.getCapability(WorldTravalerModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new WorldTravalerModVariables.PlayerVariables())).LifeCounter <= 40) {
+				.orElse(new WorldTravalerModVariables.PlayerVariables())).LifeCounter >= 40) {
 			return true;
 		}
 		return false;
