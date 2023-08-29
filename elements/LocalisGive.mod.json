@@ -25,11 +25,14 @@
         "type": "button",
         "data": {
           "text": "Получить семя локолиса",
+          "onClick": {
+            "name": "LocalisGiveButton"
+          },
           "width": 108,
           "height": 20,
           "name": "Получить семя локолиса",
           "x": 159,
-          "y": 97
+          "y": 98
         }
       },
       {

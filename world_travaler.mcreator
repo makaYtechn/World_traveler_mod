@@ -896,6 +896,94 @@
           }
         ]
       }
+    },
+    {
+      "name": "TimerToLifeCounter",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "timer_to_life_counter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AddLC",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_lc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LocalisGiveButton",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "localis_give_button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Locolis",
+      "type": "plant",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locolis"
+    },
+    {
+      "name": "LocolisStage2",
+      "type": "plant",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locolis_stage_2"
+    },
+    {
+      "name": "LocolisStage3",
+      "type": "plant",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locolis_stage_3"
+    },
+    {
+      "name": "LocolisStage4",
+      "type": "plant",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locolis_stage_4"
+    },
+    {
+      "name": "LocolisStage5",
+      "type": "plant",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locolis_stage_5"
     }
   ],
   "variable_elements": [
@@ -940,6 +1028,12 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "timer_to_life_counter",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -948,8 +1042,13 @@
       "item.world_travaler.skint": "Крупица скинта",
       "item.world_travaler.kristal_skinta": "Кристалл скинта",
       "item.world_travaler.oghraniennyi_skint": "Ограненный скинт",
+      "block.world_travaler.locolis": "Locolis",
       "item.world_travaler.oskolok": "Фрагмент скинта",
-      "key.world_travaler.open_localis_give": "Open Localis Give"
+      "block.world_travaler.locolis_stage_2": "Locolis Stage 2",
+      "block.world_travaler.locolis_stage_3": "Locolis Stage 3",
+      "block.world_travaler.locolis_stage_4": "Locolis Stage 4",
+      "key.world_travaler.open_localis_give": "Open Localis Give",
+      "block.world_travaler.locolis_stage_5": "Locolis Stage 5"
     }
   },
   "foldersRoot": {

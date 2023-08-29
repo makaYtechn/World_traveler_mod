@@ -1,0 +1,8 @@
+{
+  "parent": "world_travaler:custom/true_locolis_seed_5_stage",
+  "textures": {
+    "all": "world_travaler:blocks/truelocolis3",
+    "particle": "world_travaler:blocks/truelocolis3",
+    "0": "world_travaler:blocks/truelocolis3"
+  }
+}

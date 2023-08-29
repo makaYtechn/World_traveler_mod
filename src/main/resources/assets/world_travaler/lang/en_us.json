@@ -2,6 +2,11 @@
   "item.world_travaler.skint": "Крупица скинта",
   "item.world_travaler.kristal_skinta": "Кристалл скинта",
   "item.world_travaler.oghraniennyi_skint": "Ограненный скинт",
+  "block.world_travaler.locolis": "Locolis",
   "item.world_travaler.oskolok": "Фрагмент скинта",
-  "key.world_travaler.open_localis_give": "Open Localis Give"
+  "block.world_travaler.locolis_stage_2": "Locolis Stage 2",
+  "block.world_travaler.locolis_stage_3": "Locolis Stage 3",
+  "block.world_travaler.locolis_stage_4": "Locolis Stage 4",
+  "key.world_travaler.open_localis_give": "Open Localis Give",
+  "block.world_travaler.locolis_stage_5": "Locolis Stage 5"
 }

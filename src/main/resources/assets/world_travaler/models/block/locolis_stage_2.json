@@ -1,0 +1,8 @@
+{
+  "parent": "world_travaler:custom/locolis_seed_v2_2",
+  "textures": {
+    "all": "world_travaler:blocks/locolis1",
+    "particle": "world_travaler:blocks/locolis1",
+    "1": "world_travaler:blocks/locolis1"
+  }
+}

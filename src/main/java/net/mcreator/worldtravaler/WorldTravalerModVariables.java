@@ -111,6 +111,7 @@ public class WorldTravalerModVariables {
 		public double global_timer = 0;
 		public double timer_to_drop = 0;
 		public double timer_to_gradient = 0;
+		public double timer_to_life_counter = 0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -125,6 +126,7 @@ public class WorldTravalerModVariables {
 			global_timer = nbt.getDouble("global_timer");
 			timer_to_drop = nbt.getDouble("timer_to_drop");
 			timer_to_gradient = nbt.getDouble("timer_to_gradient");
+			timer_to_life_counter = nbt.getDouble("timer_to_life_counter");
 		}
 
 		@Override
@@ -132,6 +134,7 @@ public class WorldTravalerModVariables {
 			nbt.putDouble("global_timer", global_timer);
 			nbt.putDouble("timer_to_drop", timer_to_drop);
 			nbt.putDouble("timer_to_gradient", timer_to_gradient);
+			nbt.putDouble("timer_to_life_counter", timer_to_life_counter);
 			return nbt;
 		}
 

@@ -186,7 +186,7 @@ public class LocalisGiveGuiWindow extends ContainerScreen<LocalisGiveGui.GuiCont
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 33, this.guiTop + 60, 108, 20, new StringTextComponent("Получить семя локолиса"), e -> {
+		this.addButton(new Button(this.guiLeft + 33, this.guiTop + 61, 108, 20, new StringTextComponent("Получить семя локолиса"), e -> {
 			if (true) {
 				WorldTravalerMod.PACKET_HANDLER.sendToServer(new LocalisGiveGui.ButtonPressedMessage(0, x, y, z));
 				LocalisGiveGui.handleButtonAction(entity, 0, x, y, z);

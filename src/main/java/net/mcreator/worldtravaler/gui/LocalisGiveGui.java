@@ -28,12 +28,15 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.mcreator.worldtravaler.procedures.LocalisGiveButtonProcedure;
 import net.mcreator.worldtravaler.WorldTravalerModElements;
 import net.mcreator.worldtravaler.WorldTravalerMod;
 
+import java.util.stream.Stream;
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.AbstractMap;
 
 @WorldTravalerModElements.ModElement.Tag
 public class LocalisGiveGui extends WorldTravalerModElements.ModElement {
@@ -371,6 +374,11 @@ public class LocalisGiveGui extends WorldTravalerModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+
+			LocalisGiveButtonProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
